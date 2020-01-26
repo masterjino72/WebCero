@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería | Restaurante</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css"/>
+    <link type="text/css" rel="stylesheet" href="css/galeria.css"/>
+    <link type="text/css" rel="stylesheet" href="css/iconos.css"/>
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+          <img src="" alt="" class="modal__img" id="modal_img">  
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Restaurante</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone"> 505+999-999</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location"> Detras de la Cruz Roja, 25 vrs. Sur (Jinotega, Nicaragua)</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/Webcero" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria" class="menu__link menu__link--select">Galería</a></li>
+                <li class="menu__item"><a href="contacto" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="banner">
+        <img src="img/banner_gallery.jpg" alt="" class="banner__img">
+        <div class="banner__content">Lo mejor de nosotros a tu servicio</div>
+    </section>
+    
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__tittle">Nuestra Galería</h2>
+        </div>
+        <div class="container container--flex">
+            <div class="column colum--50--25">
+                <img src="img/gallery/gallery1.jpg" alt="" class="gallery__img gallery__img--big">
+                <img src="img/gallery/gallery2.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column colum--50--25">
+                <img src="img/gallery/gallery4.jpg" alt="" class="gallery__img gallery__img--small">
+                <img src="img/gallery/gallery3.jpg" alt="" class="gallery__img gallery__img--big">
+            </div>
+            <div class="column colum--50--25">
+                <img src="img/gallery/gallery5.jpg" alt="" class="gallery__img gallery__img--big">
+                <img src="img/gallery/gallery6.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column colum--50--25">
+                <img src="img/gallery/gallery8.jpg" alt="" class="gallery__img gallery__img--small">
+                <img src="img/gallery/gallery7.jpg" alt="" class="gallery__img gallery__img--big">
+            </div>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--33">
+                   <h2 class="column__title">¿Porqué visitarnos?</h2>
+                   <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cupiditate numquam magni, labore distinctio sequi laboriosam culpa iusto. Doloribus quisquam velit quis saepe nemo, fuga quaerat quam nesciunt provident asperiores.</p>
+                </div>
+                <div class="column column--33">
+                   <h2 class="column__title">Contactanos</h2>
+                   <p class="column__txt">Costado Sur de la Cruz Roja, 25 vrs. Sur (Jinotega, Nicaragua)</p>
+                   <p class="column__txt">Teléfono: 505+999-999</p>
+                   <p class="column__txt">admin@restaurante.com.ni</p>
+                </div>
+                <div class="column column--33">
+                   <h2 class="column__title">Síguenos en nuestras redes sociales</h2>
+                   <p class="column__txt"><a href="" class="icon-facebook"> Facebook</a></p>
+                   <p class="column__txt"><a href="" class="icon-twitter"> Síguenos en Twitter</a></p>
+                   <p class="column__txt"><a href="" class="icon-youtube"> Visita nuestro canal</a></p>
+                </div>
+                <p class="copy">@ 2019 Restaurante | Todos los derechos reservados</p>
+            </div>
+        </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body> 
+</html>
